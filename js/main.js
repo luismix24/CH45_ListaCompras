@@ -99,11 +99,11 @@ window.addEventListener("load", function(){
     if (this.localStorage.getItem("contador") != null){
         contador = Number(this.localStorage.getItem("contador"));
     }//null
-    if (localStorage.getItem("totalEnProductos")!=null){
-        totalEnProductos = Number(localStorage.getItem("totalEnProductos"));
+    if (this.localStorage.getItem("totalEnProductos")!=null){
+        totalEnProductos = Number(this.localStorage.getItem("totalEnProductos"));
     }//null
-    if (localStorage.getItem("costoTotal")!=null){
-        totalEnProductos = Number(localStorage.getItem("costoTotal"));
+    if (this.localStorage.getItem("costoTotal")!=null){
+        costoTotal = Number(this.localStorage.getItem("costoTotal"));
     }//null
     contadorProductos.innerText = contador;
     productosTotal.innerText=totalEnProductos;
