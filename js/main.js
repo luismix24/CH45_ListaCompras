@@ -159,4 +159,6 @@ window.addEventListener("load", function(){
                     </tr>`;
     cuerpoTabla.insertAdjacentHTML("beforeend", row);
     });
+    let now = new Date();
+    fecha.innerText=(now.getMonth()+1) + "/" + now.getFullYear();
 });//windows load
